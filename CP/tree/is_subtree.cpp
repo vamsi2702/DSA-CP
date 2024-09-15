@@ -24,7 +24,7 @@ public:
         if (root == NULL) {
             return false;
         }
-        if (isSame(root, subRoot)) {
+        if (isSame(root, subRoot)) { 
             return true;
         }
         return isSubtree(root->left, subRoot) || isSubtree(root->right, subRoot);
